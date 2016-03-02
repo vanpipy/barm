@@ -5,12 +5,12 @@ module.exports = function (config) {
 
     frameworks: ['jasmine'],
 
-    file: [
-      'test/specs/index.js'
+    files: [
+      './test/specs/index.js'
     ],
 
     preprocessors: {
-      'test/specs/index.js' : ['webpack']
+      './test/specs/index.js' : ['webpack']
     },
 
     reporters: ['spec'],
@@ -25,7 +25,7 @@ module.exports = function (config) {
 
     browsers: ['PhantomJS'],
 
-    singleRun: false,
+    singleRun: true,
 
     concurrency: Infinity,
 
@@ -38,16 +38,11 @@ module.exports = function (config) {
       output: {
         path: './test',
         filename: 'specs.js'
-      },
-      module: {
-        loaders: [
-
-        ]
       }
     },
 
     webpackMiddleware: {
-      noInfo: true
+      // noInfo: true
     },
 
     plugins: [
