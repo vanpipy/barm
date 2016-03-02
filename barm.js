@@ -5,7 +5,7 @@
  * -- Give some document help, like document API function 
  *    querySelector, getElementById or other else.
  * Version 
- * -- 1.0.0.
+ * -- 0.1.1.
  *
  * Author by van
  * 12/24 2015
