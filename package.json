@@ -4,7 +4,7 @@
   "description": "Basic robot barm in browser.",
   "main": "barm.js",
   "scripts": {
-    "test": "./node_modules/karma/bin/karma start karma.config.js"
+    "test": "karma start karma.config.js"
   },
   "repository": {
     "type": "git",
