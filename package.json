@@ -17,6 +17,6 @@
   "author": "vanpipy",
   "license": "MIT",
   "devDependencies": {
-
+    "rollup": "^2.33.3"
   }
 }
