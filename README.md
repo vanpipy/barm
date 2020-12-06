@@ -36,8 +36,3 @@ element.getElementsByTagName - 如果想獲得指定元素，時間複雜度O(n)
 TODO
 
 [（1）wiki - 鏈表 ](https://zh.wikipedia.org/wiki/%E9%93%BE%E8%A1%A8)
-
-## History
-version 0.1.0 completed at 2015/12/24.
-
-version 0.1.1 completed at 2016/02/25.
